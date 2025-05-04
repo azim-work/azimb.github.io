@@ -2,69 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
     <title>Azim Baghadiya</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background: #f8f9fa;
-        color: #333;
-        text-align: center;
-      }
-      .container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 90%;
-      }
-      .profile-pic {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        object-fit: cover;
-        background: white;
-        border: 2px solid #ccc;
-      }
-      .text-section {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-      h1 {
-        margin: 0;
-        font-size: 2rem;
-      }
-      h2 {
-        margin: 0;
-        font-weight: normal;
-        color: #666;
-        font-size: 1.2rem;
-      }
-      .coming-soon {
-        margin-top: 2rem;
-        font-size: 1.3rem;
-        color: #555;
-      }
-    </style>
   </head>
   <body>
-    <div class="container">
-      <img class="profile-pic" src="azimb.png" alt="img" />
-      <div class="text-section">
-        <h1>Azim Baghadiya</h1>
-        <h2>Full-Stack Software Engineer</h2>
-        <div class="coming-soon">Portfolio website coming soon.</div>
+    <nav id="desktop-nav">
+      <div class="logo">Azim Baghadiya</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
+    <script src="script.js"></script>
   </body>
 </html>
